@@ -167,7 +167,7 @@ skinparam rectangle<<boundary>> {
     !endif
   !endif
   ' has to be last, otherwise PlantUML overwrites all tag specific skinparams
-  !$stereos = $stereos + '<<' + $elementType + '>>'
+  '!$stereos = $stereos + '<<' + $elementType + '>>'
   !$mergedMask = $combineMaskWithTag($mask, $elementType)
   !if ($mergedMask != $mask)
 %set_variable_value("$" + $elementType + "Legend", %true())
